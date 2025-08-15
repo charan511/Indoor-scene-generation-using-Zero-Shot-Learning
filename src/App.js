@@ -12,7 +12,7 @@ const presets = [
 ];
 
 function App() {
-  const apiUrl = process.env.REACT_APP_API_URL || 'https://0f8b-34-124-239-88.ngrok-free.app';
+  const apiUrl = process.env.REACT_APP_API_URL || 'ngrok url';
   console.log('API URL being used:', apiUrl);
 
   const [prompt, setPrompt] = useState('');
